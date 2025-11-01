@@ -1,6 +1,6 @@
 # Analysis of Publicly Available Skin Lesion Datasets 
 
-This is a quick and brief analysis I made to examine publicly available skin lesion datasets and tasks, currently organized into six categories: Classical Classification, Segmentation Tasks, Dermoscopic Feature Detection, Temporal (longitudinal tracking), Vision-Language (image-text pairs), and Multi-modal (usually dermoscopic + clinical data) datasets. Each entry comes with the citation link, the dataset link and a brief description. More entries will be added soon.
+This is a quick and brief analysis I made to examine publicly available skin lesion datasets and tasks, currently organized into six categories: Classical Classification, Segmentation Tasks, Dermoscopic Feature Detection, Temporal (longitudinal tracking), Vision-Language (image-text pairs), and Multi-modal (usually dermoscopic + clinical data) datasets. Each entry comes with the citation link, the dataset link and a brief description. More entries will be added soon. Each table is sorted by the dataset release year (oldest to newest).
 
 ## Table of Contents
 - [1. Classical Classification Datasets](#1-classical-classification-datasets)
@@ -74,9 +74,12 @@ These tasks identify specific dermoscopic structures critical for clinical diagn
 
 Temporal datasets contain multiple images of the same lesion over time, enabling change detection research. This category remains critically underdeveloped.
 
-| Dataset | Year | Patients/Lesions | Timepoints | Follow-up Period | Key Metadata | Modality | License | Access Link | Notable Features |
-|---------|------|------------------|------------|------------------|--------------|----------|---------|-------------|------------------|
-to be added soon
+| Dataset | Participants/Images | Temporal Characteristics | Modality | Key Metadata | License | Notable Features |
+|---------|---------------------|-------------------------|----------|--------------|---------|------------------|
+| **[UQ Longitudinal Dataset (2025)](https://doi.org/10.1038/s41597-025-05880-2)** **[[data]](https://doi.org/10.48610/a13deaf)** | 480 participants; 250,162 tile images; 35,909 dermoscopic images | 340 participants with 2-7 timepoints; 6-month intervals; 2-3 year follow-up | 3D-TBP tiles + Dermoscopic | Age, sex, anatomic location, naevi count, skin/eye/hair color, freckling, ancestry, sun exposure, skin cancer history | CC-BY-NC-ND 4.0 | Paired tile and dermoscopic images of same lesions (9,389 unique lesions with 30 melanomas) |
+| **[SDDI1 (Basel) (2025)](https://doi.org/10.1038/s41591-025-03747-y)** **[[data]](https://api.isic-archive.com/collections/328/)** | 66 patients; 585 dermoscopic images (116 lesions) | Short-term monitoring; ~3-month intervals for change detection | Dermoscopic | Binary change labels (changed vs. stable); lesion diagnosis | CC-BY-NC | sequence length=5 |
+| **[SDDI2 (Vienna) (2025)](https://doi.org/10.1038/s41591-025-03747-y)**[private] | 229 sequential lesions; 458 dermoscopic images | Short-term sequential monitoring | Dermoscopic | Binary change labels and fine-grained malignant change labels | N/A | Includes malignant change annotations, sequence length=2; from PanDerm team |
+| **[SDDI_Alfred (2025)](https://doi.org/10.1038/s41591-025-03747-y)**[private] | 122 patients; 730 dermoscopic images (179 serial sequences) | Long-term monitoring from 2007-2019  | Dermoscopic | Age, gender, anatomic location, diagnosis (89 melanomas: 34 invasive, 55 in situ; 90 benign) | N/A | sequence length = 1-12, avg ~4 ; from PanDerm team |
 
 
 ---
@@ -100,16 +103,6 @@ Multi-modal datasets capture the same lesion with different imaging modalities, 
 |---------|------|--------------|---------|------------|--------------|--------------|---------|-------------|------------------|
 to be added soon
 
-
----
-
-## 6. Multi-modal Datasets
-
-Multi-modal datasets capture the same lesion with different imaging modalities, supporting fusion learning and cross-modal analysis.
-
-| Dataset | Year | Total Images | Lesions | Modalities | Key Metadata | Ground Truth | License | Access Link | Notable Features |
-|---------|------|--------------|---------|------------|--------------|--------------|---------|-------------|------------------|
-to be added soon
 
 ---
 
