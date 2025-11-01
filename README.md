@@ -61,9 +61,13 @@ Segmentation tasks focus on precise lesion boundary detection, essential for aut
 
 These tasks identify specific dermoscopic structures critical for clinical diagnosis using established dermoscopic criteria.
 
-| Dataset/Task | Year | Images | Features Detected | Annotation Format | Evaluation | License | Access Link | Notable Features |
-|---------|------|--------|-------------------|-------------------|------------|---------|-------------|------------------|
-to be added soon
+| Dataset | Images | Features Annotated | Modality | License | Notable Features |
+|---------|--------|-------------------|----------|---------|------------------|
+| **[PH² (2013)](https://doi.org/10.1109/EMBC.2013.6610779)** **[[data]](https://www.fc.up.pt/addi/ph2%20database.html)** | 200 | Pigment network (T/AT), Dots/globules (A/T/AT), Streaks (P/A), Regression areas (P/A), Blue-whitish veil (P/A), Colors (6 classes: white, red, light-brown, dark-brown, blue-gray, black), Asymmetry | Dermoscopic | Research only | *Notes: P: present, A: absent, T: typical, AT: atypical;  Subset of 29 images with color class segmentation masks |
+| **[ISIC 2016 Task 2 (2016)](https://arxiv.org/abs/1605.01397)** **[[data]](https://challenge.isic-archive.com/landing/2016/38/)** | Train: 807, Test: 335 | Superpixel-level annotations: Globules (presence/absence per superpixel), Streaks (presence/absence per superpixel) | Dermoscopic | CC-0 | superpixel-level annotations with cross-validation; SLIC superpixel subdivision |
+| **[ISIC 2017 Part 2 (2017)](https://arxiv.org/abs/1710.05006)** **[[data]](https://challenge.isic-archive.com/landing/2017/43/)** | Train: 2,000, Val: 150, Test: 600 | Superpixel-level annotations: Pigment Network, Negative Network, Streaks, Milia-like Cysts | Dermoscopic | CC-0 | Superpixel-level feature for four key dermoscopic criteria|
+| **[ISIC 2018 Task 2 (2018)](https://doi.org/10.1038/sdata.2018.161)** **[[data]](https://challenge.isic-archive.com/landing/2018/46/)** | 2,594 | Superpixel-level annotations: Pigment Network, Negative Network, Streaks, Milia-like Cysts, Globules | Dermoscopic | CC-0 | added Globules annotation and more training data to ISIC 2017 |
+| **[Derm7pt (2019)](https://doi.org/10.1109/JBHI.2018.2824327)** **[[data]](https://derm.cs.sfu.ca/Welcome.html)** | 1,011 cases (2,022 images) | 7-point checklist: Pigment network, Blue-whitish veil, Vascular structures, Pigmentation, Streaks, Dots/globules, Regression structures + metadata (diagnostic difficulty, elevation, location, sex) | Clinical + Dermoscopic | Research | Paired imaging modalities (clinical and dermoscopic)|
 ---
 
 ## 4. Temporal Datasets
