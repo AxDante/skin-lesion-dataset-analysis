@@ -1,6 +1,6 @@
-# Analysis of Publicly Available Skin Lesion Datasets 
+# Collection and Analysis of Skin Lesion Datasets
 
-This is a quick and brief analysis I made to examine publicly available skin lesion datasets and tasks, currently organized into six categories: Classical Classification, Segmentation Tasks, Dermoscopic Feature Detection, Temporal (longitudinal tracking), Vision-Language (image-text pairs), and Multi-modal (usually dermoscopic + clinical data) datasets. Each entry comes with the citation link, the dataset link and a brief description. More entries will be added soon. Each table is sorted by the dataset release year (oldest to newest).
+This is a quick and brief analysis I made to examine tasets and tasks (mostly publicly availabe), currently organized into six categories: Classical Classification, Segmentation Tasks, Dermoscopic Feature Detection, Temporal (longitudinal tracking), Vision-Language (image-text pairs), and Multi-modal (usually dermoscopic + clinical data) datasets. Each entry comes with the citation link, the dataset link and a brief description. More entries will be added soon. Each table is sorted by the dataset release year (oldest to newest).
 
 ## Table of Contents
 - [1. Classical Classification Datasets](#1-classical-classification-datasets)
