@@ -95,16 +95,6 @@ Image-text and VQA datasets emerged rapidly to support vision-language model dev
 | **[DermaVQA (2024)](doi.org/10.1007/978-3-031-72086-4_20)** **[[data]](https://osf.io/72rp3/overview)** | 3.5k VQA pairs  | Multilingual VQA (English, Chinese, Spanish) | Age, sex, diagnosis, treatment, author rank | Clinical | Open access (research) | consumer health dermatology VQA dataset, user-generated queries from IYII.com & Reddit, professional responses|
 | **[DermaSynth (2025)](https://arxiv.org/abs/2502.00196)** **[[data]](https://github.com/abdurrahimyilmaz/DermaSynth)** | 92,020 synthetic pairs from 45,205 images (13,568 clinical + 35,561 dermoscopic) | Synthetic VQA pairs using self-instruct method | Diagnosis, age, sex, anatomic site, skin type, symptoms | Clinical, dermoscopic | CC-BY-NC 4.0 | Image Source: DERM12345, BCN20000, PAD-UFES-20, SCIN, HIBA. Synthetic dataset using Gemini 2.0, Provided DermatoLlama model|
 | **[Derm1M (2025)](https://arxiv.org/abs/2503.14911)** **[[data]](https://github.com/SiyuanYan1/Derm1M)** | 1,029,761 pairs (403,563 refined medical + 403,563 ontology-based + 222,635 concept-based) | Captions (avg 41 tokens), hierarchical disease labels, clinical concept labels | 390+ skin conditions, 130 clinical concepts, patient history, symptoms, anatomic sites, demographics, skin tone | Clinical, dermoscopic, pathological (source: YouTube + PubMed + forums) | CC-BY-NC 4.0 | provided DermLIP foundation models for zero-shot classification, cross-modal retrieval/VQA/captioning |
----
-
-## 6. Multi-modal Datasets
-
-Multi-modal datasets capture the same lesion with different imaging modalities, supporting fusion learning and cross-modal analysis.
-
-| Dataset | Year | Total Images | Lesions | Modalities | Key Metadata | Ground Truth | License | Access Link | Notable Features |
-|---------|------|--------------|---------|------------|--------------|--------------|---------|-------------|------------------|
-to be added soon
-
 
 ---
 
